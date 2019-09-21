@@ -1,0 +1,75 @@
+
+.signin{
+    background: linear-gradient(gray, silver);
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+.welcome{
+    color: white;
+    font-weight: bold;
+    padding-left: 8px;
+}
+p{
+    display: flex;
+    flex-direction: row;
+}
+p img{
+    margin-top: 37px;
+    height: 80px;
+    width: 100px;
+}
+.color{
+    background-color: silver;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.container{
+    border: solid 3px white;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+nav{
+    padding: 16px;
+    position: sticky;
+    top: 0px;
+    opacity: 0.8;
+    background-image: linear-gradient(lightgray,silver, gray);
+
+    /*background-color: white;*/
+
+}
+nav a{
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: darkgray;
+    box-shadow: 0.5px 0.5px gray;
+    border: 1px white;
+    border-radius: 25px;
+}
+header{
+width: 100%;
+
+}
+.mainpage{
+    padding: 0px;
+}
+.cont{
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 100%;
+
+}
+.addItem{
+    border-radius: 50%;
+}
+label{
+color: white;
+}
